@@ -1,0 +1,6 @@
+{"time":"2025-03-04T16:38:41.7796704+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250304_163841-wg7xixby\\logs\\debug-core.log"}
+{"time":"2025-03-04T16:38:42.6093989+05:30","level":"INFO","msg":"created new stream","id":"wg7xixby"}
+{"time":"2025-03-04T16:38:42.6099531+05:30","level":"INFO","msg":"stream: started","id":"wg7xixby"}
+{"time":"2025-03-04T16:38:42.6099531+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wg7xixby"}
+{"time":"2025-03-04T16:38:42.6099531+05:30","level":"INFO","msg":"handler: started","stream_id":"wg7xixby"}
+{"time":"2025-03-04T16:38:42.6099531+05:30","level":"INFO","msg":"sender: started","stream_id":"wg7xixby"}

@@ -1,0 +1,17 @@
+2025-03-04 18:14:23,743 INFO    MainThread:26388 [wandb_init.py:setup_run_log_directory():647] Logging user logs to c:\Users\sudha\Desktop\My Data\Education\IITM\2nd sem\Intro to DL\Assignments\Deep-Learning-Assignmnent-1-DA24M023\wandb\run-20250304_181423-u16j0yy3\logs\debug.log
+2025-03-04 18:14:23,743 INFO    MainThread:26388 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to c:\Users\sudha\Desktop\My Data\Education\IITM\2nd sem\Intro to DL\Assignments\Deep-Learning-Assignmnent-1-DA24M023\wandb\run-20250304_181423-u16j0yy3\logs\debug-internal.log
+2025-03-04 18:14:23,743 INFO    MainThread:26388 [wandb_init.py:init():761] calling init triggers
+2025-03-04 18:14:23,743 INFO    MainThread:26388 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'CNN', 'dataset': 'CIFAR-100', 'epochs': 10, '_wandb': {}}
+2025-03-04 18:14:23,744 INFO    MainThread:26388 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-04 18:14:23,746 INFO    MainThread:26388 [wandb_run.py:_finish():2112] finishing run da24m023-indian-institute-of-technology-madras/testing2/xyfv7fpv
+2025-03-04 18:14:23,747 ERROR   MainThread:26388 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-03-04 18:14:23,747 INFO    MainThread:26388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-04 18:14:23,747 INFO    MainThread:26388 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-04 18:14:23,747 INFO    MainThread:26388 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-04 18:14:23,748 INFO    MainThread:26388 [wandb_run.py:_restore():2324] restore
+2025-03-04 18:14:23,748 INFO    MainThread:26388 [wandb_run.py:_restore():2330] restore done
+2025-03-04 18:14:26,710 INFO    MsgRouterThr:26388 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-04 18:14:26,710 INFO    MainThread:26388 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-04 18:14:26,710 INFO    MainThread:26388 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-04 18:14:26,712 INFO    MainThread:26388 [wandb_run.py:_footer_sync_info():3919] logging synced files

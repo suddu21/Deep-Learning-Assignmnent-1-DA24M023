@@ -1,0 +1,26 @@
+{"time":"2025-03-04T18:12:32.0922249+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250304_181232-xyfv7fpv\\logs\\debug-core.log"}
+{"time":"2025-03-04T18:12:33.3456267+05:30","level":"INFO","msg":"created new stream","id":"xyfv7fpv"}
+{"time":"2025-03-04T18:12:33.3456267+05:30","level":"INFO","msg":"stream: started","id":"xyfv7fpv"}
+{"time":"2025-03-04T18:12:33.3456267+05:30","level":"INFO","msg":"handler: started","stream_id":"xyfv7fpv"}
+{"time":"2025-03-04T18:12:33.3456267+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"xyfv7fpv"}
+{"time":"2025-03-04T18:12:33.3456267+05:30","level":"INFO","msg":"sender: started","stream_id":"xyfv7fpv"}
+{"time":"2025-03-04T18:12:33.8688601+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-04T18:12:34.0502579+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T18:14:07.0857699+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T18:14:07.0914051+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T18:14:07.2588173+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T18:14:07.2629654+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T18:14:07.410413+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T18:14:07.4176149+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T18:14:07.438104+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T18:14:07.4441382+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T18:14:23.7365592+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T18:14:23.7497112+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-04T18:14:23.7505782+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-04T18:14:24.7555759+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.2811367},{"desc":"uploading wandb-summary.json","runtime_seconds":0.2811367,"progress":"151B/151B"}],"total_operations":2}}
+{"time":"2025-03-04T18:14:25.244367+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-04T18:14:26.7160652+05:30","level":"INFO","msg":"stream: closing","id":"xyfv7fpv"}
+{"time":"2025-03-04T18:14:26.7160652+05:30","level":"INFO","msg":"handler: closed","stream_id":"xyfv7fpv"}
+{"time":"2025-03-04T18:14:26.7160652+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"xyfv7fpv"}
+{"time":"2025-03-04T18:14:26.7160652+05:30","level":"INFO","msg":"sender: closed","stream_id":"xyfv7fpv"}
+{"time":"2025-03-04T18:14:26.7160652+05:30","level":"INFO","msg":"stream: closed","id":"xyfv7fpv"}
