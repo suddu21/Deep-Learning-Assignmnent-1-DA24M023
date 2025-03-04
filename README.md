@@ -16,6 +16,6 @@ In this assignment you need to implement a feedforward neural network and write 
 Your code will have to follow the format specified in the Code Specifications section.
 
  ## Tasks
-- [ ] Question 1 (2 Marks) - Download the fashion-MNIST dataset and plot 1 sample image for each class as shown in the grid below. Use from keras.datasets import fashion_mnist for getting the fashion mnist dataset.
+- [x] Question 1 (2 Marks) - Download the fashion-MNIST dataset and plot 1 sample image for each class as shown in the grid below. Use from keras.datasets import fashion_mnist for getting the fashion mnist dataset.
 - [ ] Question 2 (10 Marks) - Implement a feedforward neural network which takes images from the fashion-mnist data as input and outputs a probability distribution over the 10 classes. Your code should be flexible such that it is easy to change the number of hidden layers and the number of neurons in each hidden layer.
 - [ ] Question 3 (24 Marks) - Implement the backpropagation algorithm with support for the following optimisation functions - sgd, momentum based gradient descent, nesterov accelerated gradient descent, rmsprop, adam, nadam (12 marks for the backpropagation framework and 2 marks for each of the optimisation algorithms above). We will check the code for implementation and ease of use (e.g., how easy it is to add a new optimisation algorithm such as Eve). Note that the code should be flexible enough to work with different batch sizes.
