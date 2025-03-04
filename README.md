@@ -1,4 +1,4 @@
-# Deep Learning Assignmnent 1 DA24M023
+# [Deep Learning Assignment 1 DA24M023](https://wandb.ai/sivasankar1234/DA6401/reports/DA6401-Assignment-1--VmlldzoxMTQ2NDQwNw)
 ## Instructions
 * The goal of this assignment is twofold: (i) implement and use gradient descent (and its variants) with backpropagation for a classification task (ii) get familiar with Wandb which is a cool tool for running and keeping track of a large number of experiments.
 * This is a individual assignment and no groups are allowed.
