@@ -1,4 +1,4 @@
-from tensorflow.keras.datasets import fashion_mnist, mnist # type: ignore
+from keras.datasets import fashion_mnist, mnist # type: ignore
 import wandb
 
 run = wandb.init(
