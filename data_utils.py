@@ -3,7 +3,7 @@ import numpy as np
 import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 # Added this to suppress TF warnings
-from tensorflow.keras.datasets import fashion_mnist, mnist # type: ignore
+from keras.datasets import fashion_mnist, mnist # type: ignore
 from sklearn.model_selection import train_test_split
 
 def preprocess_data(x_train, x_test):
