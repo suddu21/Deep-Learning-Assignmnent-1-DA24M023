@@ -146,6 +146,9 @@ class NeuralNetwork:
     
     def activation_derivative(self, Z):
         """Compute derivative of activation function"""
+        # Referred to
+        # https://dustinstansbury.github.io/theclevermachine/derivation-common-neural-network-activation-functions
+        
         if self.activation == 'sigmoid':
             A = self.apply_activation(Z)
             return A * (1 - A)
