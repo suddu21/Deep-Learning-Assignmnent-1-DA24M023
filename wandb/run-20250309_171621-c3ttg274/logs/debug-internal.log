@@ -1,0 +1,17 @@
+{"time":"2025-03-09T17:16:21.5054859+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250309_171621-c3ttg274\\logs\\debug-core.log"}
+{"time":"2025-03-09T17:16:22.2342405+05:30","level":"INFO","msg":"created new stream","id":"c3ttg274"}
+{"time":"2025-03-09T17:16:22.2342405+05:30","level":"INFO","msg":"stream: started","id":"c3ttg274"}
+{"time":"2025-03-09T17:16:22.2342405+05:30","level":"INFO","msg":"handler: started","stream_id":"c3ttg274"}
+{"time":"2025-03-09T17:16:22.2347838+05:30","level":"INFO","msg":"sender: started","stream_id":"c3ttg274"}
+{"time":"2025-03-09T17:16:22.2347838+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"c3ttg274"}
+{"time":"2025-03-09T17:16:22.5843569+05:30","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-09T17:16:22.5843569+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-03-09T17:16:22.6045135+05:30","level":"INFO","msg":"stream: closing","id":"c3ttg274"}
+{"time":"2025-03-09T17:16:22.6045135+05:30","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-03-09T17:16:22.9127732+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-09T17:16:22.9127732+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project myname/myprojectname not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-03-09T17:16:22.9139863+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T17:16:22.9139863+05:30","level":"INFO","msg":"handler: closed","stream_id":"c3ttg274"}
+{"time":"2025-03-09T17:16:22.9139863+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"c3ttg274"}
+{"time":"2025-03-09T17:16:22.9139863+05:30","level":"INFO","msg":"sender: closed","stream_id":"c3ttg274"}
+{"time":"2025-03-09T17:16:22.9139863+05:30","level":"INFO","msg":"stream: closed","id":"c3ttg274"}

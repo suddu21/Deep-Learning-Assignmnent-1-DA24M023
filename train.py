@@ -46,6 +46,7 @@ def run_single_experiment(args):
         learning_rate=args.learning_rate,
         weight_decay=args.weight_decay,
         momentum=args.momentum,
+        beta=args.beta,
         beta1=args.beta1,
         beta2=args.beta2,
         epsilon=args.epsilon
@@ -97,16 +98,16 @@ def main():
                         help="WandB entity name")
     parser.add_argument("-d", "--dataset", type=str, default="fashion_mnist",
                         help="Dataset to use")
-    parser.add_argument("-e", "--epochs", type=int, default=10,
+    parser.add_argument("-e", "--epochs", type=int, default=20,
                         help="Number of epochs")
-    parser.add_argument("-b", "--batch_size", type=int, default=64,
+    parser.add_argument("-b", "--batch_size", type=int, default=16,
                         help="Batch size")
     parser.add_argument("-l", "--loss_fn", type=str, default="cross_entropy",
                         help="Loss function")
     parser.add_argument("-o", "--optimizer", type=str, 
                         choices=["sgd", "momentum", "nag", "rmsprop", "adam", "nadam"], 
-                        default="nadam", help="Optimization algorithm")
-    parser.add_argument("-lr", "--learning_rate", type=float, default=0.001,
+                        default="adam", help="Optimization algorithm")
+    parser.add_argument("-lr", "--learning_rate", type=float, default=0.0001,
                         help="Learning rate")
     parser.add_argument("-m", "--momentum", type=float, default=0.9,
                         help="Momentum parameter")
@@ -122,7 +123,7 @@ def main():
                         help="L2 regularization strength")
     parser.add_argument("-w_i", "--weight_init", type=str, choices=["random", "Xavier"], default="Xavier",
                         help="Weight initialization method")
-    parser.add_argument("-nhl", "--num_layers", type=int, default=5,
+    parser.add_argument("-nhl", "--num_layers", type=int, default=3,
                         help="Number of hidden layers")
     parser.add_argument("-sz", "--hidden_size", type=int, default=128,
                         help="Number of neurons in each hidden layer")
@@ -139,7 +140,7 @@ def main():
 
     
     if args.mode == "single":
-        args.wandb_project = "fashion-mnist-nn-single"
+        #args.wandb_project = "fashion-mnist-nn-single"
         run_single_experiment(args)
     else:
         if not args.wandb:

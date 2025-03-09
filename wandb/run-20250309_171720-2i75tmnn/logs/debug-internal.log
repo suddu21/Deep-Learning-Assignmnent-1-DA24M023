@@ -1,0 +1,16 @@
+{"time":"2025-03-09T17:17:20.100509+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250309_171720-2i75tmnn\\logs\\debug-core.log"}
+{"time":"2025-03-09T17:17:20.8328902+05:30","level":"INFO","msg":"created new stream","id":"2i75tmnn"}
+{"time":"2025-03-09T17:17:20.8334521+05:30","level":"INFO","msg":"handler: started","stream_id":"2i75tmnn"}
+{"time":"2025-03-09T17:17:20.8334521+05:30","level":"INFO","msg":"stream: started","id":"2i75tmnn"}
+{"time":"2025-03-09T17:17:20.8334521+05:30","level":"INFO","msg":"sender: started","stream_id":"2i75tmnn"}
+{"time":"2025-03-09T17:17:20.8334521+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2i75tmnn"}
+{"time":"2025-03-09T17:17:21.2804095+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T17:20:49.0182434+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T17:20:49.0193198+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T17:20:50.0302516+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\images\\test_confusion_matrix_20_199b296f6ae0bdf0bd39.png","runtime_seconds":0.700724,"progress":"84.3KB/84.3KB"},{"desc":"uploading output.log","runtime_seconds":0.306377,"progress":"9.7KB/9.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.306377,"progress":"487B/487B"}],"total_operations":3}}
+{"time":"2025-03-09T17:20:50.3889618+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T17:20:51.7658698+05:30","level":"INFO","msg":"stream: closing","id":"2i75tmnn"}
+{"time":"2025-03-09T17:20:51.7658698+05:30","level":"INFO","msg":"handler: closed","stream_id":"2i75tmnn"}
+{"time":"2025-03-09T17:20:51.7658698+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"2i75tmnn"}
+{"time":"2025-03-09T17:20:51.7658698+05:30","level":"INFO","msg":"sender: closed","stream_id":"2i75tmnn"}
+{"time":"2025-03-09T17:20:51.7658698+05:30","level":"INFO","msg":"stream: closed","id":"2i75tmnn"}

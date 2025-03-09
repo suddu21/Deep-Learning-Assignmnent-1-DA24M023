@@ -34,6 +34,6 @@ def prepare_data(dataset="fashion_mnist"):
     x_train, x_test = preprocess_data(x_train, x_test)
     
     # Split into train and val sets
-    x_train, X_val, y_train, y_val = train_test_split(x_train, y_train, test_size=0.1, random_state=42)
+    x_train, x_val, y_train, y_val = train_test_split(x_train, y_train, test_size=0.1, random_state=42)
     
-    return x_train, y_train, X_val, y_val, x_test, y_test, classes
+    return x_train, y_train, x_val, y_val, x_test, y_test, classes

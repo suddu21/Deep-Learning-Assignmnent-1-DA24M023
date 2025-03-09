@@ -78,7 +78,7 @@ class NeuralNetwork:
                 w = np.random.uniform(-scale, scale, (layer_sizes[i], layer_sizes[i+1]))
             else:
                 # Random initialization
-                # The constant factor here makes a big difference in model performance
+                # The constant factor here makes a big difference in model performance. 0.1 works well
                 w = np.random.randn(layer_sizes[i], layer_sizes[i+1]) * 0.1
             
             # All 1 bias
@@ -88,7 +88,7 @@ class NeuralNetwork:
     
     def initialize_optimizer(self):
         """Initialize optimizer-specific variables"""
-        layer_sizes = [self.input_size] + self.hidden_sizes + [self.output_size]
+        #layer_sizes = [self.input_size] + self.hidden_sizes + [self.output_size]
         
         # For momentum and nesterov
         # These use only velocity vectors
@@ -133,12 +133,19 @@ class NeuralNetwork:
     
     def apply_activation(self, Z):
         """Apply activation function"""
+        # Sigmoid function
         if self.activation == 'sigmoid':
             return 1 / (1 + np.exp(-Z))
+        
+        # Tanh function
         elif self.activation == 'tanh':
             return np.tanh(Z)
+        
+        # ReLU function
         elif self.activation == 'ReLU':
             return np.maximum(0, Z)
+        
+        # Good ol identity function
         elif self.activation == 'identity':
             return Z
         else:
@@ -176,7 +183,7 @@ class NeuralNetwork:
 
         # Cross-entropy loss
         if loss_fn == 'cross_entropy':
-            log_probs = -np.log(y_pred[range(m), y_true])
+            log_probs = -np.log(y_pred[range(m), y_true] + 1e-8)
             data_loss = np.sum(log_probs) / m
         elif loss_fn == 'mean_squared_error':
             # First make true label into one-hot encoded vector to subtract from predicted prob distribution
@@ -196,7 +203,11 @@ class NeuralNetwork:
         return data_loss + reg_loss
     
     def backward(self, X, y):
-        """Backward pass (compute gradients)"""
+        """Backward pass (compute gradients)
+        Uses the true labels y and the stored activations and pre-activations of each layer
+        to compute the error at the final layer and backpropagate it through the network.
+        Output: dW, db - gradients of weights and biases
+        """
         m = X.shape[0]
         
         # Initialize gradients

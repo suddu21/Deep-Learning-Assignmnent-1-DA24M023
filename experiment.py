@@ -11,7 +11,7 @@ def run_experiment(config=None):
         config = wandb.config
         
         # Load up the dataset
-        X_train, y_train, X_val, y_val, X_test, y_test, classes = prepare_data(dataset="fashion_mnist")
+        X_train, y_train, X_val, y_val, X_test, y_test, classes = prepare_data(dataset=config.dataset)
         #print("Loaded data")
         
         # Create neural network with specified hyperparameters
@@ -50,51 +50,79 @@ def setup_sweep(args):
         'project': args.wandb_project,
         'metric': {'goal': 'maximize', 'name': 'val_acc'},
         'parameters': {
-            'epochs': {'values': [10, 20]},
+            'epochs': {'values': [5, 10]},
             'hidden_layers': {'values': [3, 4, 5]},
-            'hidden_size': {'values': [32, 64, 128]},
+            'hidden_size': {'values': [64, 128, 256]},
             'weight_decay': {'values': [0, 0.0005, 0.5]},
             'learning_rate': {'values': [1e-3, 1e-4]},
-            'momentum': {'values': [0.9]},
-            'beta': {'values': [0.9]},
-            'beta1': {'values': [0.9]},
+            'momentum': {'values': [0.9, 0.5]},
+            'beta': {'values': [0.9, 0.5]},
+            'beta1': {'values': [0.9, 0.5]},
             'beta2': {'values': [0.999]},
             'epsilon': {'values': [1e-8]},
-            'optimizer': {'values': ['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam']},
-            'batch_size': {'values': [16, 32, 64]},
+            'optimizer': {'values': ['momentum', 'nag', 'rmsprop', 'adam', 'nadam']},
+            'batch_size': {'values': [32, 64, 128]},
             'weight_init': {'values': ['random', 'Xavier']},
-            'activation': {'values': ['sigmoid', 'tanh', 'ReLU']},
+            'activation': {'values': ['tanh', 'ReLU']},
             'loss_fn': {'values': [args.loss_fn]},
             'dataset': {'values': [args.dataset]}
         }
     }
 
     # For Cross entrop vs MSE comparison, comment out for regular use
-    """
-    sweep_configuration = {
-        'method': 'grid',
-        'name': 'fashion-mnist-sweep',
+    if args.loss_fn == "mean_squared_error":
+        sweep_configuration = {
+            'method': 'grid',
+            'name': 'mse vs cross entropy test',
+            'entity': args.wandb_entity,
+            'project': args.wandb_project,
+            'metric': {'goal': 'maximize', 'name': 'val_acc'},
+            'parameters': {
+                'epochs': {'values': [10]},
+                'hidden_layers': {'values': [3]},
+                'hidden_size': {'values': [64]},
+                'weight_decay': {'values': [0.0005]},
+                'learning_rate': {'values': [1e-3]},
+                'momentum': {'values': [0.9]},
+                'beta': {'values': [0.9]},
+                'beta1': {'values': [0.9]},
+                'beta2': {'values': [0.999]},
+                'epsilon': {'values': [1e-8]},
+                'optimizer': {'values': ['rmsprop']},
+                'batch_size': {'values': [32]},
+                'weight_init': {'values': ['random']},
+                'activation': {'values': ['tanh']},
+                'loss_fn': {'values': ['cross_entropy', 'mean_squared_error']},
+                'dataset': {'values': [args.dataset]}
+                }
+            }
+    # For MNIST dataset
+    if args.dataset == "mnist":
+
+        sweep_configuration = {
+        'method': 'bayes',
+        'name': 'mnist-sweep',
         'entity': args.wandb_entity,
         'project': args.wandb_project,
         'metric': {'goal': 'maximize', 'name': 'val_acc'},
         'parameters': {
-            'epochs': {'values': [10]},
-            'hidden_layers': {'values': [5]},
-            'hidden_size': {'values': [128]},
-            'weight_decay': {'values': [0.0005]},
-            'learning_rate': {'values': [1e-3]},
-            'momentum': {'values': [0.9]},
-            'beta': {'values': [0.9]},
-            'beta1': {'values': [0.9]},
+            'epochs': {'values': [5, 10]},
+            'hidden_layers': {'values': [3, 4, 5]},
+            'hidden_size': {'values': [64, 128, 256]},
+            'weight_decay': {'values': [0, 0.0005, 0.5]},
+            'learning_rate': {'values': [1e-3, 1e-4]},
+            'momentum': {'values': [0.9, 0.5]},
+            'beta': {'values': [0.9, 0.5]},
+            'beta1': {'values': [0.9, 0.5]},
             'beta2': {'values': [0.999]},
             'epsilon': {'values': [1e-8]},
-            'optimizer': {'values': ['nadam']},
-            'batch_size': {'values': [64]},
-            'weight_init': {'values': ['Xavier']},
-            'activation': {'values': ['tanh']},
-            'loss_fn': {'values': ['cross_entropy', 'mean_squared_error']},
-            'dataset': {'values': [args.dataset]}
-        }
-    }"""
+            'optimizer': {'values': ['momentum', 'nag', 'rmsprop', 'adam', 'nadam']},
+            'batch_size': {'values': [32, 64, 128]},
+            'weight_init': {'values': ['random', 'Xavier']},
+            'activation': {'values': ['tanh', 'ReLU']},
+            'loss_fn': {'values': [args.loss_fn]},
+            'dataset': {'values': ['mnist']}
+            }
+            }
     
     return sweep_configuration

@@ -91,12 +91,12 @@ def train(model, X, y, batch_size, epochs, X_val=None, y_val=None, loss_fn='cros
                 config.optimizer, config.batch_size, config.weight_decay, config.epochs,
                 config.hidden_layers, config.hidden_size, config.dataset
             )
-            """
-            run_name = "lr_{}_a_{}_l_{}_wi_{}_o_{}_b_{}_e_{}_nhl_{}_sz_{}_d_{}".format(
-                config.learning_rate, config.activation, config.loss_fn, config.weight_init,
-                config.optimizer, config.batch_size, config.epochs,
-                config.hidden_layers, config.hidden_size, config.dataset
-            )"""
+            
+            #run_name = "lr_{}_a_{}_l_{}_wi_{}_o_{}_b_{}_e_{}_nhl_{}_sz_{}_d_{}".format(
+            #    config.learning_rate, config.activation, config.loss_fn, config.weight_init,
+            #    config.optimizer, config.batch_size, config.epochs,
+            #    config.hidden_layers, config.hidden_size, config.dataset
+            #)"""
             wandb.run.name = run_name
             wandb.run.save()
     

@@ -1,0 +1,80 @@
+{
+  "os":  "Windows-10-10.0.26100-SP0",
+  "python":  "CPython 3.11.9",
+  "startedAt":  "2025-03-09T11:55:11.245624Z",
+  "args":  [
+    "--wandb_project",
+    "myprojectname",
+    "--wandb_entity",
+    "da24m023-indian-institute-of-technology-madras",
+    "--dataset",
+    "fashion_mnist",
+    "--epochs",
+    "1",
+    "--batch_size",
+    "4",
+    "--loss",
+    "cross_entropy",
+    "--optimizer",
+    "sgd",
+    "--learning_rate",
+    "0.1",
+    "--momentum",
+    "0.5",
+    "--beta",
+    "0.5",
+    "--beta1",
+    "0.5",
+    "--beta2",
+    "0.5",
+    "--epsilon",
+    "0.000001",
+    "--weight_decay",
+    "0.0",
+    "--weight_init",
+    "random",
+    "--num_layers",
+    "1",
+    "--hidden_size",
+    "4",
+    "--activation",
+    "sigmoid"
+  ],
+  "program":  "C:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/suddu21/Deep-Learning-Assignmnent-1-DA24M023.git",
+    "commit":  "5abdcf3f61ed298919be053ca5d620ed5c27ba9b"
+  },
+  "email":  "da24m023@smail.iitm.ac.in",
+  "root":  "C:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023",
+  "host":  "Sud",
+  "executable":  "C:\\Users\\sudha\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "codePathLocal":  "train.py",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce GTX 1660 Ti",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "488421453824",
+      "used":  "395169951744"
+    }
+  },
+  "memory":  {
+    "total":  "16929980416"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce GTX 1660 Ti",
+      "memoryTotal":  "6442450944",
+      "cudaCores":  1536,
+      "architecture":  "Turing"
+    }
+  ],
+  "cudaVersion":  "12.7"
+}
