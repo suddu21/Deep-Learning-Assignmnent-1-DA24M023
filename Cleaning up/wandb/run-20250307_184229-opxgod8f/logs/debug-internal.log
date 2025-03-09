@@ -1,9 +1,0 @@
-{"time":"2025-03-07T18:42:29.5643934+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250307_184229-opxgod8f\\logs\\debug-core.log"}
-{"time":"2025-03-07T18:42:29.7970181+05:30","level":"INFO","msg":"created new stream","id":"opxgod8f"}
-{"time":"2025-03-07T18:42:29.7977418+05:30","level":"INFO","msg":"stream: started","id":"opxgod8f"}
-{"time":"2025-03-07T18:42:29.7977418+05:30","level":"INFO","msg":"handler: started","stream_id":"opxgod8f"}
-{"time":"2025-03-07T18:42:29.7977418+05:30","level":"INFO","msg":"sender: started","stream_id":"opxgod8f"}
-{"time":"2025-03-07T18:42:29.7977418+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"opxgod8f"}
-{"time":"2025-03-07T18:42:30.2726322+05:30","level":"INFO","msg":"Starting system monitor"}
-{"time":"2025-03-07T18:42:56.268614+05:30","level":"INFO","msg":"Stopping system monitor"}
-{"time":"2025-03-07T18:42:56.2693712+05:30","level":"INFO","msg":"Stopped system monitor"}
