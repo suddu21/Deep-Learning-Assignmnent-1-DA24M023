@@ -2,6 +2,9 @@
 * [Click here for wandb report](https://wandb.ai/da24m023-indian-institute-of-technology-madras/fashion-mnist-nn-sweep/reports/Sudhanva-Satish-DA24M023-DA6401-Assignment-1--VmlldzoxMTY5ODY1OA?accessToken=uje0e7k9sa6p71hgv2i4q0empuhil9yzcb8wwai5e4i0fs2v3j5wlllazhzi796c)
 * Github repo link - https://github.com/suddu21/Deep-Learning-Assignmnent-1-DA24M023
 ## Instructions to train and run the model
+* **PRE-REQUISITES**
+  * Login to your Wandb account before running the code
+  * Install necessary libraries in requirements.txt - numpy, matplotlib, seaborn, keras, scikit-learn, wandb, argparse, tqdm, os
 * To plot the sample images for the dataset, i.e, Question 1, run the following command
   ```
   python sample_images.py
