@@ -1,0 +1,16 @@
+{"time":"2025-03-07T18:07:50.3956765+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250307_180750-sstkv4ew\\logs\\debug-core.log"}
+{"time":"2025-03-07T18:07:51.2328661+05:30","level":"INFO","msg":"created new stream","id":"sstkv4ew"}
+{"time":"2025-03-07T18:07:51.2328661+05:30","level":"INFO","msg":"stream: started","id":"sstkv4ew"}
+{"time":"2025-03-07T18:07:51.233658+05:30","level":"INFO","msg":"sender: started","stream_id":"sstkv4ew"}
+{"time":"2025-03-07T18:07:51.233658+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"sstkv4ew"}
+{"time":"2025-03-07T18:07:51.233658+05:30","level":"INFO","msg":"handler: started","stream_id":"sstkv4ew"}
+{"time":"2025-03-07T18:07:51.6299961+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T18:08:23.8494751+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T18:08:23.8499808+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T18:08:24.8621924+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3602222,"progress":"1.6KB/1.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.0576256,"progress":"916B/916B"}],"total_operations":2}}
+{"time":"2025-03-07T18:08:25.1441653+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T18:08:26.5293678+05:30","level":"INFO","msg":"stream: closing","id":"sstkv4ew"}
+{"time":"2025-03-07T18:08:26.5293678+05:30","level":"INFO","msg":"handler: closed","stream_id":"sstkv4ew"}
+{"time":"2025-03-07T18:08:26.5293678+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"sstkv4ew"}
+{"time":"2025-03-07T18:08:26.5293678+05:30","level":"INFO","msg":"sender: closed","stream_id":"sstkv4ew"}
+{"time":"2025-03-07T18:08:26.5299031+05:30","level":"INFO","msg":"stream: closed","id":"sstkv4ew"}

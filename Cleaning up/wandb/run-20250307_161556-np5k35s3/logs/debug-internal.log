@@ -1,0 +1,16 @@
+{"time":"2025-03-07T16:15:56.372144+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250307_161556-np5k35s3\\logs\\debug-core.log"}
+{"time":"2025-03-07T16:15:57.0129554+05:30","level":"INFO","msg":"created new stream","id":"np5k35s3"}
+{"time":"2025-03-07T16:15:57.0129554+05:30","level":"INFO","msg":"stream: started","id":"np5k35s3"}
+{"time":"2025-03-07T16:15:57.0129554+05:30","level":"INFO","msg":"handler: started","stream_id":"np5k35s3"}
+{"time":"2025-03-07T16:15:57.0129554+05:30","level":"INFO","msg":"sender: started","stream_id":"np5k35s3"}
+{"time":"2025-03-07T16:15:57.0129554+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"np5k35s3"}
+{"time":"2025-03-07T16:15:57.4172301+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T16:16:36.3169852+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T16:16:36.3178777+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T16:16:37.3238425+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3953303,"progress":"800B/800B"},{"desc":"uploading config.yaml","runtime_seconds":0.089481,"progress":"915B/915B"}],"total_operations":2}}
+{"time":"2025-03-07T16:16:37.6364234+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T16:16:38.9703025+05:30","level":"INFO","msg":"stream: closing","id":"np5k35s3"}
+{"time":"2025-03-07T16:16:38.9703025+05:30","level":"INFO","msg":"handler: closed","stream_id":"np5k35s3"}
+{"time":"2025-03-07T16:16:38.9703025+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"np5k35s3"}
+{"time":"2025-03-07T16:16:38.9703025+05:30","level":"INFO","msg":"sender: closed","stream_id":"np5k35s3"}
+{"time":"2025-03-07T16:16:38.9703025+05:30","level":"INFO","msg":"stream: closed","id":"np5k35s3"}

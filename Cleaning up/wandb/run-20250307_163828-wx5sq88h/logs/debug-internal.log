@@ -1,0 +1,16 @@
+{"time":"2025-03-07T16:38:28.5581583+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250307_163828-wx5sq88h\\logs\\debug-core.log"}
+{"time":"2025-03-07T16:38:28.9917651+05:30","level":"INFO","msg":"created new stream","id":"wx5sq88h"}
+{"time":"2025-03-07T16:38:28.9923453+05:30","level":"INFO","msg":"handler: started","stream_id":"wx5sq88h"}
+{"time":"2025-03-07T16:38:28.9923453+05:30","level":"INFO","msg":"stream: started","id":"wx5sq88h"}
+{"time":"2025-03-07T16:38:28.9923453+05:30","level":"INFO","msg":"sender: started","stream_id":"wx5sq88h"}
+{"time":"2025-03-07T16:38:28.9923453+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wx5sq88h"}
+{"time":"2025-03-07T16:38:29.3885793+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T16:40:22.2076823+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T16:40:22.2081863+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T16:40:23.2227145+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3555648,"progress":"800B/800B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3555648,"progress":"212B/212B"},{"desc":"uploading config.yaml","runtime_seconds":0.0297494,"progress":"923B/923B"}],"total_operations":3}}
+{"time":"2025-03-07T16:40:23.5520941+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T16:40:24.9288148+05:30","level":"INFO","msg":"stream: closing","id":"wx5sq88h"}
+{"time":"2025-03-07T16:40:24.9288148+05:30","level":"INFO","msg":"handler: closed","stream_id":"wx5sq88h"}
+{"time":"2025-03-07T16:40:24.9288148+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wx5sq88h"}
+{"time":"2025-03-07T16:40:24.9288148+05:30","level":"INFO","msg":"sender: closed","stream_id":"wx5sq88h"}
+{"time":"2025-03-07T16:40:24.9296191+05:30","level":"INFO","msg":"stream: closed","id":"wx5sq88h"}

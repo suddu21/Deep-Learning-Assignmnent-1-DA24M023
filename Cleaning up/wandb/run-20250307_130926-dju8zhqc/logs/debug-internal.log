@@ -1,0 +1,30 @@
+{"time":"2025-03-07T13:09:26.5044245+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250307_130926-dju8zhqc\\logs\\debug-core.log"}
+{"time":"2025-03-07T13:09:27.9426699+05:30","level":"INFO","msg":"created new stream","id":"dju8zhqc"}
+{"time":"2025-03-07T13:09:27.9426699+05:30","level":"INFO","msg":"stream: started","id":"dju8zhqc"}
+{"time":"2025-03-07T13:09:27.9426699+05:30","level":"INFO","msg":"handler: started","stream_id":"dju8zhqc"}
+{"time":"2025-03-07T13:09:27.9432352+05:30","level":"INFO","msg":"sender: started","stream_id":"dju8zhqc"}
+{"time":"2025-03-07T13:09:27.9426699+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dju8zhqc"}
+{"time":"2025-03-07T13:09:28.366632+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T13:09:28.63709+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-07T13:09:33.3995834+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-07T13:09:33.7117038+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-07T13:09:36.5373421+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-07T13:09:37.8471694+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-07T13:09:40.1181915+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-07T13:09:40.1223731+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-07T13:09:41.9881633+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-07T13:09:54.0683407+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-07T13:10:15.3396904+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-07T13:10:15.3450614+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-07T13:10:15.8026172+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-07T13:10:15.8208416+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-07T13:10:18.7944975+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-07T13:10:18.7970574+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T13:10:18.7981725+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T13:10:19.8148238+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.0493862,"progress":"779B/779B"}],"total_operations":1}}
+{"time":"2025-03-07T13:10:20.0992598+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T13:10:21.4254379+05:30","level":"INFO","msg":"stream: closing","id":"dju8zhqc"}
+{"time":"2025-03-07T13:10:21.4254379+05:30","level":"INFO","msg":"handler: closed","stream_id":"dju8zhqc"}
+{"time":"2025-03-07T13:10:21.4254379+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dju8zhqc"}
+{"time":"2025-03-07T13:10:21.4254379+05:30","level":"INFO","msg":"sender: closed","stream_id":"dju8zhqc"}
+{"time":"2025-03-07T13:10:21.425955+05:30","level":"INFO","msg":"stream: closed","id":"dju8zhqc"}

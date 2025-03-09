@@ -1,0 +1,16 @@
+{"time":"2025-03-07T20:17:43.2571428+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250307_201743-d4062cpw\\logs\\debug-core.log"}
+{"time":"2025-03-07T20:17:43.6901088+05:30","level":"INFO","msg":"created new stream","id":"d4062cpw"}
+{"time":"2025-03-07T20:17:43.6906881+05:30","level":"INFO","msg":"stream: started","id":"d4062cpw"}
+{"time":"2025-03-07T20:17:43.6906881+05:30","level":"INFO","msg":"handler: started","stream_id":"d4062cpw"}
+{"time":"2025-03-07T20:17:43.6906881+05:30","level":"INFO","msg":"sender: started","stream_id":"d4062cpw"}
+{"time":"2025-03-07T20:17:43.6906881+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"d4062cpw"}
+{"time":"2025-03-07T20:17:44.1414971+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T20:18:21.9808707+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T20:18:21.9815863+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T20:18:22.9877256+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3311199,"progress":"1.6KB/1.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3311199,"progress":"233B/233B"},{"desc":"uploading config.yaml","runtime_seconds":0.0121236,"progress":"978B/978B"}],"total_operations":3}}
+{"time":"2025-03-07T20:18:23.9503101+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T20:18:25.3258971+05:30","level":"INFO","msg":"stream: closing","id":"d4062cpw"}
+{"time":"2025-03-07T20:18:25.3258971+05:30","level":"INFO","msg":"handler: closed","stream_id":"d4062cpw"}
+{"time":"2025-03-07T20:18:25.3258971+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"d4062cpw"}
+{"time":"2025-03-07T20:18:25.3258971+05:30","level":"INFO","msg":"sender: closed","stream_id":"d4062cpw"}
+{"time":"2025-03-07T20:18:25.3258971+05:30","level":"INFO","msg":"stream: closed","id":"d4062cpw"}

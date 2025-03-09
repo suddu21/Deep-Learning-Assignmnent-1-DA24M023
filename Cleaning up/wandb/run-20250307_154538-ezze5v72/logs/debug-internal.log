@@ -1,0 +1,16 @@
+{"time":"2025-03-07T15:45:38.3826408+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250307_154538-ezze5v72\\logs\\debug-core.log"}
+{"time":"2025-03-07T15:45:39.1205512+05:30","level":"INFO","msg":"created new stream","id":"ezze5v72"}
+{"time":"2025-03-07T15:45:39.1212091+05:30","level":"INFO","msg":"stream: started","id":"ezze5v72"}
+{"time":"2025-03-07T15:45:39.1212091+05:30","level":"INFO","msg":"handler: started","stream_id":"ezze5v72"}
+{"time":"2025-03-07T15:45:39.1212091+05:30","level":"INFO","msg":"sender: started","stream_id":"ezze5v72"}
+{"time":"2025-03-07T15:45:39.1212091+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ezze5v72"}
+{"time":"2025-03-07T15:45:39.5345845+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T15:46:50.3893691+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T15:46:50.3898761+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T15:46:51.3970493+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.0739817,"progress":"922B/922B"}],"total_operations":1}}
+{"time":"2025-03-07T15:46:51.649846+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T15:46:52.9957518+05:30","level":"INFO","msg":"stream: closing","id":"ezze5v72"}
+{"time":"2025-03-07T15:46:52.9957518+05:30","level":"INFO","msg":"handler: closed","stream_id":"ezze5v72"}
+{"time":"2025-03-07T15:46:52.9957518+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ezze5v72"}
+{"time":"2025-03-07T15:46:52.9957518+05:30","level":"INFO","msg":"sender: closed","stream_id":"ezze5v72"}
+{"time":"2025-03-07T15:46:52.9957518+05:30","level":"INFO","msg":"stream: closed","id":"ezze5v72"}

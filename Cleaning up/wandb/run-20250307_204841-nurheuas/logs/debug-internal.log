@@ -1,0 +1,16 @@
+{"time":"2025-03-07T20:48:41.3536275+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250307_204841-nurheuas\\logs\\debug-core.log"}
+{"time":"2025-03-07T20:48:41.5825078+05:30","level":"INFO","msg":"created new stream","id":"nurheuas"}
+{"time":"2025-03-07T20:48:41.5825078+05:30","level":"INFO","msg":"stream: started","id":"nurheuas"}
+{"time":"2025-03-07T20:48:41.5825078+05:30","level":"INFO","msg":"handler: started","stream_id":"nurheuas"}
+{"time":"2025-03-07T20:48:41.5825078+05:30","level":"INFO","msg":"sender: started","stream_id":"nurheuas"}
+{"time":"2025-03-07T20:48:41.5825078+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nurheuas"}
+{"time":"2025-03-07T20:48:41.9620921+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T20:49:37.1393023+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T20:49:37.1398124+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T20:49:38.1436936+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.1763444,"progress":"976B/976B"}],"total_operations":1}}
+{"time":"2025-03-07T20:49:38.3165058+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T20:49:39.6585298+05:30","level":"INFO","msg":"stream: closing","id":"nurheuas"}
+{"time":"2025-03-07T20:49:39.6585298+05:30","level":"INFO","msg":"handler: closed","stream_id":"nurheuas"}
+{"time":"2025-03-07T20:49:39.6585298+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nurheuas"}
+{"time":"2025-03-07T20:49:39.6585298+05:30","level":"INFO","msg":"sender: closed","stream_id":"nurheuas"}
+{"time":"2025-03-07T20:49:39.6585298+05:30","level":"INFO","msg":"stream: closed","id":"nurheuas"}

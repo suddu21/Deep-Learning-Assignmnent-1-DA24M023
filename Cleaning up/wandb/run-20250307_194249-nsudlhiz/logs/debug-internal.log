@@ -1,0 +1,16 @@
+{"time":"2025-03-07T19:42:49.0909382+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250307_194249-nsudlhiz\\logs\\debug-core.log"}
+{"time":"2025-03-07T19:42:49.7205791+05:30","level":"INFO","msg":"created new stream","id":"nsudlhiz"}
+{"time":"2025-03-07T19:42:49.7205791+05:30","level":"INFO","msg":"stream: started","id":"nsudlhiz"}
+{"time":"2025-03-07T19:42:49.7205791+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nsudlhiz"}
+{"time":"2025-03-07T19:42:49.7205791+05:30","level":"INFO","msg":"sender: started","stream_id":"nsudlhiz"}
+{"time":"2025-03-07T19:42:49.7212115+05:30","level":"INFO","msg":"handler: started","stream_id":"nsudlhiz"}
+{"time":"2025-03-07T19:42:50.1304152+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T19:43:15.5863616+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T19:43:15.5870932+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T19:43:16.5957646+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.1329262,"progress":"1.6KB/1.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.1329262,"progress":"221B/221B"}],"total_operations":2}}
+{"time":"2025-03-07T19:43:17.0786577+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T19:43:18.4061152+05:30","level":"INFO","msg":"stream: closing","id":"nsudlhiz"}
+{"time":"2025-03-07T19:43:18.4061152+05:30","level":"INFO","msg":"handler: closed","stream_id":"nsudlhiz"}
+{"time":"2025-03-07T19:43:18.4061152+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nsudlhiz"}
+{"time":"2025-03-07T19:43:18.4061152+05:30","level":"INFO","msg":"sender: closed","stream_id":"nsudlhiz"}
+{"time":"2025-03-07T19:43:18.4066252+05:30","level":"INFO","msg":"stream: closed","id":"nsudlhiz"}

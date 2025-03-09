@@ -1,0 +1,11 @@
+Epoch 1/10:   0%|          | 0/843 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\sudha\AppData\Local\Temp\ipykernel_34492\2941600890.py", line 419, in run_experiment
+    model.train(X_train, y_train, config.batch_size, config.epochs, X_val, y_val)
+  File "C:\Users\sudha\AppData\Local\Temp\ipykernel_34492\2941600890.py", line 319, in train
+    dW, db = self.backward(X_batch, y_batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sudha\AppData\Local\Temp\ipykernel_34492\2941600890.py", line 188, in backward
+    dZ = dA * self.activation_derivative(self.Z[i])
+         ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ValueError: operands could not be broadcast together with shapes (64,10) (64,64)
