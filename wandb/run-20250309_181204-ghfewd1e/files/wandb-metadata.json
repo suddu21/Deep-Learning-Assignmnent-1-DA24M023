@@ -1,0 +1,22 @@
+{
+  "os":  "Windows-10-10.0.26100-SP0",
+  "python":  "CPython 3.11.9",
+  "startedAt":  "2025-03-09T12:42:04.631806Z",
+  "args":  [
+    "--loss",
+    "mean_squeared_error",
+    "--epochs",
+    "1"
+  ],
+  "program":  "C:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/suddu21/Deep-Learning-Assignmnent-1-DA24M023.git",
+    "commit":  "8232f39599896555a7e9f31a7d2087c6d23de3a8"
+  },
+  "email":  "da24m023@smail.iitm.ac.in",
+  "root":  "C:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023",
+  "host":  "Sud",
+  "executable":  "C:\\Users\\sudha\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "codePathLocal":  "train.py"
+}

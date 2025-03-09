@@ -29,7 +29,7 @@ def run_single_experiment(args):
             "epochs": args.epochs,
             "weight_init": args.weight_init,
             "dataset": args.dataset,
-            "loss_fn": args.loss_fn
+            "loss_fn": args.loss
         })
     
     # Create model
@@ -53,7 +53,7 @@ def run_single_experiment(args):
     )
     
     # Train model
-    train_losses, train_accs, val_losses, val_accs = train(model, x_train, y_train, args.batch_size, args.epochs, X_val, y_val, loss_fn=args.loss_fn)
+    train_losses, train_accs, val_losses, val_accs = train(model, x_train, y_train, args.batch_size, args.epochs, X_val, y_val, loss_fn=args.loss)
     
     # Evaluate on test set
     predictions = model.predict(x_test)
@@ -102,7 +102,7 @@ def main():
                         help="Number of epochs")
     parser.add_argument("-b", "--batch_size", type=int, default=16,
                         help="Batch size")
-    parser.add_argument("-l", "--loss_fn", type=str, default="cross_entropy",
+    parser.add_argument("-l", "--loss", type=str, default="cross_entropy",
                         help="Loss function")
     parser.add_argument("-o", "--optimizer", type=str, 
                         choices=["sgd", "momentum", "nag", "rmsprop", "adam", "nadam"], 
