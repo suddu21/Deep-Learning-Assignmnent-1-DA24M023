@@ -35,7 +35,7 @@ def run_experiment(config=None):
         )
         
         # Train the model
-        train(model, X_train, y_train, config.batch_size, config.epochs, X_val, y_val)
+        train(model, X_train, y_train, config.batch_size, config.epochs, X_val, y_val, loss_fn=config.loss_fn)
         
         # Evaluate on test set
         test_acc = model.evaluate(X_test, y_test)
@@ -64,13 +64,13 @@ def setup_sweep(args):
             'batch_size': {'values': [32, 64, 128]},
             'weight_init': {'values': ['random', 'Xavier']},
             'activation': {'values': ['tanh', 'ReLU']},
-            'loss_fn': {'values': [args.loss_fn]},
+            'loss_fn': {'values': [args.loss]},
             'dataset': {'values': [args.dataset]}
         }
     }
 
     # For Cross entrop vs MSE comparison, comment out for regular use
-    if args.loss_fn == "mean_squared_error":
+    if args.loss == "mean_squared_error":
         sweep_configuration = {
             'method': 'grid',
             'name': 'mse vs cross entropy test',
@@ -120,7 +120,7 @@ def setup_sweep(args):
             'batch_size': {'values': [32, 64, 128]},
             'weight_init': {'values': ['random', 'Xavier']},
             'activation': {'values': ['tanh', 'ReLU']},
-            'loss_fn': {'values': [args.loss_fn]},
+            'loss_fn': {'values': [args.loss]},
             'dataset': {'values': ['mnist']}
             }
             }

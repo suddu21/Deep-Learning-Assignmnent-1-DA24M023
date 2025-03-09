@@ -1,0 +1,16 @@
+{"time":"2025-03-09T18:15:12.5517136+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250309_181512-o6uqwauh\\logs\\debug-core.log"}
+{"time":"2025-03-09T18:15:13.1861089+05:30","level":"INFO","msg":"created new stream","id":"o6uqwauh"}
+{"time":"2025-03-09T18:15:13.1861089+05:30","level":"INFO","msg":"stream: started","id":"o6uqwauh"}
+{"time":"2025-03-09T18:15:13.1861089+05:30","level":"INFO","msg":"handler: started","stream_id":"o6uqwauh"}
+{"time":"2025-03-09T18:15:13.1866565+05:30","level":"INFO","msg":"sender: started","stream_id":"o6uqwauh"}
+{"time":"2025-03-09T18:15:13.1866565+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"o6uqwauh"}
+{"time":"2025-03-09T18:15:13.6433836+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T18:15:17.0565317+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T18:15:17.0570368+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T18:15:18.0725162+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\images\\test_confusion_matrix_1_c00012de033fb3da68e9.png","runtime_seconds":0.7049552,"progress":"88.2KB/88.2KB"}],"total_operations":1}}
+{"time":"2025-03-09T18:15:18.1775528+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T18:15:19.5587336+05:30","level":"INFO","msg":"stream: closing","id":"o6uqwauh"}
+{"time":"2025-03-09T18:15:19.5587336+05:30","level":"INFO","msg":"handler: closed","stream_id":"o6uqwauh"}
+{"time":"2025-03-09T18:15:19.5587336+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"o6uqwauh"}
+{"time":"2025-03-09T18:15:19.5587336+05:30","level":"INFO","msg":"sender: closed","stream_id":"o6uqwauh"}
+{"time":"2025-03-09T18:15:19.5587336+05:30","level":"INFO","msg":"stream: closed","id":"o6uqwauh"}

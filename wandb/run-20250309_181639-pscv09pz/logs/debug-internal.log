@@ -1,0 +1,16 @@
+{"time":"2025-03-09T18:16:39.2671052+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\sudha\\Desktop\\My Data\\Education\\IITM\\2nd sem\\Intro to DL\\Assignments\\Deep-Learning-Assignmnent-1-DA24M023\\wandb\\run-20250309_181639-pscv09pz\\logs\\debug-core.log"}
+{"time":"2025-03-09T18:16:40.0004445+05:30","level":"INFO","msg":"created new stream","id":"pscv09pz"}
+{"time":"2025-03-09T18:16:40.0010662+05:30","level":"INFO","msg":"handler: started","stream_id":"pscv09pz"}
+{"time":"2025-03-09T18:16:40.0010662+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pscv09pz"}
+{"time":"2025-03-09T18:16:40.0010662+05:30","level":"INFO","msg":"stream: started","id":"pscv09pz"}
+{"time":"2025-03-09T18:16:40.0010662+05:30","level":"INFO","msg":"sender: started","stream_id":"pscv09pz"}
+{"time":"2025-03-09T18:16:40.4555131+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T18:16:41.435984+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T18:16:41.4364897+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T18:16:42.4412457+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6628875,"progress":"1.1KB/1.1KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.6628875,"progress":"24B/24B"},{"desc":"uploading config.yaml","runtime_seconds":0.3741792,"progress":"1.1KB/1.1KB"}],"total_operations":3}}
+{"time":"2025-03-09T18:16:43.0749796+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T18:16:44.4366413+05:30","level":"INFO","msg":"stream: closing","id":"pscv09pz"}
+{"time":"2025-03-09T18:16:44.4366413+05:30","level":"INFO","msg":"handler: closed","stream_id":"pscv09pz"}
+{"time":"2025-03-09T18:16:44.4366413+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pscv09pz"}
+{"time":"2025-03-09T18:16:44.4366413+05:30","level":"INFO","msg":"sender: closed","stream_id":"pscv09pz"}
+{"time":"2025-03-09T18:16:44.4366413+05:30","level":"INFO","msg":"stream: closed","id":"pscv09pz"}
