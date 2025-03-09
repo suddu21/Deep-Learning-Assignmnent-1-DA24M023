@@ -1,0 +1,9 @@
+numpy
+matplotlib
+seaborn
+keras
+scikit-learn
+wandb
+argparse
+tqdm
+os
