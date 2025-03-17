@@ -19,7 +19,7 @@
     ```
     wandb login
     ```
-  * Make sure to give the correct wandb entity name and project name while running the project
+  * Make sure to give the correct wandb entity name and project name while running the project. Note that the default values in the code are my Wandb account values which will not work for you, so pass the right values using the CLI arguments --wandb_entity and --wandb_project
   * Install necessary libraries in requirements.txt - numpy, matplotlib, seaborn, keras, scikit-learn, wandb, argparse, tqdm, os
     ```
     pip install -r requirements.txt
