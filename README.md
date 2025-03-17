@@ -12,6 +12,10 @@
 ## Instructions to train and run the model
 * **PRE-REQUISITES**
   * Login to your Wandb account before running the code
+    ```
+    wandb login
+    ```
+  * Make sure to give the correct wandb entity name and project name while running the project
   * Install necessary libraries in requirements.txt - numpy, matplotlib, seaborn, keras, scikit-learn, wandb, argparse, tqdm, os
     ```
     pip install -r requirements.txt
