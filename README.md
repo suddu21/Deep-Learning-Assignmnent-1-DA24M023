@@ -1,6 +1,14 @@
 # [DA6401 Intro to Deep Learning - Assignment 1](https://wandb.ai/sivasankar1234/DA6401/reports/DA6401-Assignment-1--VmlldzoxMTQ2NDQwNw)
 * [Click here for wandb report](https://wandb.ai/da24m023-indian-institute-of-technology-madras/fashion-mnist-nn-sweep/reports/Sudhanva-Satish-DA24M023-DA6401-Assignment-1--VmlldzoxMTY5ODY1OA?accessToken=uje0e7k9sa6p71hgv2i4q0empuhil9yzcb8wwai5e4i0fs2v3j5wlllazhzi796c)
 * Github repo link - https://github.com/suddu21/Deep-Learning-Assignmnent-1-DA24M023
+## Code Organization
+* sample_images.py - To log a sample image from each class of the dataset to wandb
+* train.py - Entry file that takes the command line arguments, processes them and runs a single model run or sweep appropriately
+* experiment.py - Logic for setting up a sweep experiment config and function to be executed at each sweep experiment run
+* data_utils.py - To load the required dataset, preprocess it and return the train, test and validation subsets of the dataset
+* trainer.py - Flow of training the model with chosen optimizer and logging results to wandb
+* optimizers.py - Library of implemented optimizers
+* neural_network.py - Contains the NeuralNetwork class
 ## Instructions to train and run the model
 * **PRE-REQUISITES**
   * Login to your Wandb account before running the code
