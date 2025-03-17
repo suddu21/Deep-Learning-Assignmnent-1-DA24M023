@@ -1,6 +1,10 @@
 # [DA6401 Intro to Deep Learning - Assignment 1](https://wandb.ai/sivasankar1234/DA6401/reports/DA6401-Assignment-1--VmlldzoxMTQ2NDQwNw)
 * Wandb report - https://wandb.ai/da24m023-indian-institute-of-technology-madras/fashion-mnist-nn-sweep/reports/Sudhanva-Satish-DA24M023-DA6401-Assignment-1--VmlldzoxMTY5ODY1OA?accessToken=uje0e7k9sa6p71hgv2i4q0empuhil9yzcb8wwai5e4i0fs2v3j5wlllazhzi796c
 * Github repo link - https://github.com/suddu21/Deep-Learning-Assignmnent-1-DA24M023
+## Overview
+* The aim of this assignment is to build a neural network implementing all the operations from scratch using numpy
+* The task is image classification of the fashion_mnist dataset
+* Various optimization algorithms have been implemented as directed
 ## Code Organization
 * sample_images.py - To log a sample image from each class of the dataset to wandb
 * train.py - Entry file that takes the command line arguments, processes them and runs a single model run or sweep appropriately
@@ -20,7 +24,7 @@
     ```
     pip install -r requirements.txt
     ```
-* To plot the sample images for the dataset, i.e, Question 1, run the following command
+* (Q1) To plot the sample images for the dataset, i.e, Question 1, run the following command
   ```
   python sample_images.py
   ```
@@ -42,15 +46,15 @@
   3. Logs the run to wandb along with training and validation metrics.
   4. Evaluates the model on the test dataset and logs testing accuracy.
   5. Creates a confusion matrix for test predictions, saves it locally and logs it to wandb.
-* To run a hyperparameter sweep, use the CL argument --mode which takes 'single' and 'sweep' as values. Pass the value 'sweep' to run a wandb sweep.
+* (Q2-6) To run a hyperparameter sweep, use the CL argument --mode which takes 'single' and 'sweep' as values. Pass the value 'sweep' to run a wandb sweep.
   ```
   python train.py --mode sweep
   ```
   * This starts a Bayesian sweep across the hyperparameter search space and logs each run with appropriate name to wandb
   * To stop the sweep early, press ctrl+C in the terminal running the program or stop it from Wandb's sweep controls console
 * To modify the hyperparameter search space for the sweep, go to the file experiment.py and add your choice of values in the first sweep config file of the sweep_config() method
-* To generate a confusion matrix for test data, simply run the train.py with no arguments. A confusion matrix image 'test_confusion_matrix.png' will be created, saved locally and logged to wandb.
-* To compare the model performance for MSE vs Cross Entropy loss, run the following command
+* (Q7) To generate a confusion matrix for test data, simply run the train.py with no arguments. A confusion matrix image 'test_confusion_matrix.png' will be created, saved locally and logged to wandb.
+* (Q8) To compare the model performance for MSE vs Cross Entropy loss, run the following command
   ```
   python train.py --mode sweep --loss mean_squared_error
   ```
@@ -58,7 +62,7 @@
   ```
   python train.py --datatset mnist
   ```
-* To run a sweep on the MNIST dataset, run the command
+* (Q10) To run a sweep on the MNIST dataset, run the command
   ```
   python train.py --mode sweep --dataset mnist
   ```
@@ -92,3 +96,4 @@
 | :---: | :-------------: | :----------- |
 | `--mode` | 'single' | Choices: ["single", "sweep"] |
 | `-d`,`--dataset` | 'fashion-mnist' | Choices: ['fashion-mnist', 'mnist'] |
+| `--sweep_runs` | `100` | Number of runs per sweep |
