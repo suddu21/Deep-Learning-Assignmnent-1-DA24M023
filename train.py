@@ -81,7 +81,7 @@ def run_hyperparameter_sweep(args):
     # Bayesian hyperparameter sweep with wandb
     sweep_config = setup_sweep(args)
     sweep_id = wandb.sweep(sweep_config, project=args.wandb_project, entity=args.wandb_entity)
-    wandb.agent(sweep_id, function=run_experiment)
+    wandb.agent(sweep_id, function=run_experiment, count=args.sweep_runs)
 
 def main():
 
@@ -132,9 +132,10 @@ def main():
     # WandB options
     parser.add_argument("--wandb", action="store_false",
                         help="Enable wandb logging")
+    # Decided to scrap these args cos no point of not logging in wandb
     parser.add_argument("--sweep_runs", type=int, default=100,
                         help="Number of runs for hyperparameter sweep")
-    # Decided to scrap these args cos no point of not logging in wandb
+    
     
     args = parser.parse_args()
 
