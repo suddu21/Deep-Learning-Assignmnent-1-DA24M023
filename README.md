@@ -13,6 +13,9 @@
 * **PRE-REQUISITES**
   * Login to your Wandb account before running the code
   * Install necessary libraries in requirements.txt - numpy, matplotlib, seaborn, keras, scikit-learn, wandb, argparse, tqdm, os
+    ```
+    pip install -r requirements.txt
+    ```
 * To plot the sample images for the dataset, i.e, Question 1, run the following command
   ```
   python sample_images.py
@@ -40,6 +43,8 @@
   python train.py --mode sweep
   ```
   * This starts a Bayesian sweep across the hyperparameter search space and logs each run with appropriate name to wandb
+  * To stop the sweep early, press ctrl+C in the terminal running the program or stop it from Wandb's sweep controls console
+* To modify the hyperparameter search space for the sweep, go to the file experiment.py and add your choice of values in the first sweep config file of the sweep_config() method
 * To generate a confusion matrix for test data, simply run the train.py with no arguments. A confusion matrix image 'test_confusion_matrix.png' will be created, saved locally and logged to wandb.
 * To compare the model performance for MSE vs Cross Entropy loss, run the following command
   ```
@@ -81,5 +86,5 @@
 
 | Name | Default Value | Description |
 | :---: | :-------------: | :----------- |
-| `--sweep` | 'single' | Choices: ["single", "sweep"] |
+| `--mode` | 'single' | Choices: ["single", "sweep"] |
 | `-d`,`--dataset` | 'fashion-mnist' | Choices: ['fashion-mnist', 'mnist'] |
