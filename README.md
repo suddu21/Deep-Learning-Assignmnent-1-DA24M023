@@ -60,7 +60,7 @@
   ```
 * To run the model on the MNIST dataset, run the command
   ```
-  python train.py --datatset mnist
+  python train.py --dataset mnist
   ```
 * (Q10) To run a sweep on the MNIST dataset, run the command
   ```
